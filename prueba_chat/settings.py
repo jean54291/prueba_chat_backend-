@@ -101,30 +101,30 @@ WSGI_APPLICATION = 'prueba_chat.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 # --------------------------
-# DATABASES = {
-#     'default': {
-#         # 'ENGINE': 'django.db.backends.sqlite3',
-#         # 'NAME': BASE_DIR / 'db.sqlite3',
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'pruebas_chat',
-#         'USER':'postgres',
-#         'PASSWORD':'jeanpiere5429',
-#         'HOST':'localhost',
-#         'PORT':'',
-
-#     }
-# }
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db0hpvengovtv3',
-        'USER':'kzxnmuowkxosfj',
-        'PASSWORD':'7495390f5e95d8d8e2818c5648a033e8f6f8e7ec1c631dc631789bb9d0c3296e',
-        'HOST':'ec2-54-224-175-142.compute-1.amazonaws.com',
-        'PORT':'5432',
+        'NAME': 'pruebas_chat',
+        'USER':'postgres',
+        'PASSWORD':'jeanpiere5429',
+        'HOST':'localhost',
+        'PORT':'',
 
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'db0hpvengovtv3',
+#         'USER':'kzxnmuowkxosfj',
+#         'PASSWORD':'7495390f5e95d8d8e2818c5648a033e8f6f8e7ec1c631dc631789bb9d0c3296e',
+#         'HOST':'ec2-54-224-175-142.compute-1.amazonaws.com',
+#         'PORT':'5432',
+
+#     }
+# }
 # -----------------------------------------------------------------
 # AUTHENTICATION_BACKENDS = (
 #     'django.contrib.auth.backends.ModelBackend',
